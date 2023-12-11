@@ -1,9 +1,11 @@
 import './App.css';
+import MuiTypography from './components/MuiTypography.tsx';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>React App</h1>
+      <MuiTypography />
     </div>
   );
 }
